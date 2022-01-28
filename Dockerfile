@@ -18,5 +18,5 @@ RUN sudo chmod 777 /rclone
 RUN mv /rclone /usr/bin/
 
 
-CMD wget https://raw.githubusercontent.com/666wcy/qbittorrent_python_rclone/main/start.sh  && chmod 0777 start.sh && bash start.sh
+CMD wget https://raw.githubusercontent.com/railway7/qb/main/start.sh  && chmod 0777 start.sh && bash start.sh
 
