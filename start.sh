@@ -13,7 +13,7 @@ chown 0777 -R /config \
 
 git clone https://github.com/railway7/qb
 chmod 0777 /upload
-mv  -n /qbittorrent_python_rclone/upload/* /upload/
+mv  -n /qb/upload/* /upload/
 chmod 0777 /upload/ -R
 rm -rf /qb
 cp /config/rclone/rclone.conf /root/.config/rclone/rclone.conf
