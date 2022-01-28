@@ -16,6 +16,7 @@ chmod 0777 /upload
 mv  -n /qbittorrent_python_rclone/upload/* /upload/
 chmod 0777 /upload/ -R
 rm -rf /qbittorrent_python_rclone
+cp /config/rclone/rclone.conf /root/.config/rclone/rclone.conf
 
 
 nohup yes "" | qbittorrent-nox --webui-port=$PORT  --profile=/config  &
