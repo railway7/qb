@@ -17,7 +17,7 @@ mv  -n /qb/upload/* /upload/
 chmod 0777 /upload/ -R
 rm -rf /qb
 mkdir /root/.config/rclone
-cp /config/rclone/rclone.conf /root/.config/rclone/rclone.conf
+cp /config/rclone/rclone.conf /root/.config/rclone/
 
 
 nohup yes "" | qbittorrent-nox --webui-port=$PORT  --profile=/config  &
